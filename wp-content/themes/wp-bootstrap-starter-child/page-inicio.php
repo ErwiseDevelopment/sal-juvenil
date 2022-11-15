@@ -78,7 +78,7 @@ get_header(); ?>
 
                                                     <div class="card-img py-2 px-1">
                                                         <img
-                                                        class="img-fluid w-100 h-100"
+                                                        class="img-fluid w-100 h-100 u-object-fit-cover"
                                                         src="<?php echo $rest_post->featured_image_src; ?>"
                                                         alt="<?php echo $rest_post->title->rendered; ?>">
                                                     </div>
@@ -151,7 +151,7 @@ get_header(); ?>
 
                                                                 <div class="card-img l-news__medium__card-img">
                                                                     <img
-                                                                    class="img-fluid w-100 h-100"
+                                                                    class="img-fluid w-100 h-100 u-object-fit-cover"
                                                                     src="<?php echo $rest_post->featured_image_src; ?>"
                                                                     alt="<?php echo $rest_post->title->rendered; ?>">
                                                                 </div>
@@ -211,7 +211,7 @@ get_header(); ?>
 
                                                                 <div class="card-img">
                                                                     <img
-                                                                    class="img-fluid w-100 h-100"
+                                                                    class="img-fluid w-100 h-100 u-object-fit-cover"
                                                                     src="<?php echo $rest_post->featured_image_src; ?>"
                                                                     alt="<?php echo $rest_post->title->rendered; ?>">
                                                                 </div>
@@ -277,7 +277,7 @@ get_header(); ?>
 
                                                                 <div class="card-img">
                                                                     <img
-                                                                    class="img-fluid w-100 h-100"
+                                                                    class="img-fluid w-100 h-100 u-object-fit-cover"
                                                                     src="<?php echo $rest_post->featured_image_src; ?>"
                                                                     alt="<?php echo $rest_post->title->rendered; ?>">
                                                                 </div>
@@ -411,7 +411,7 @@ get_header(); ?>
 
                                                             <div class="col-md-6">
                                                                 <img
-                                                                class="img-fluid"
+                                                                class="img-fluid u-object-fit-cover"
                                                                 src="<?php echo $rest_post->featured_image; ?>"
                                                                 alt="">
                                                             </div>
@@ -507,7 +507,7 @@ get_header(); ?>
 
                                                         <div class="col-md-5">
                                                             <img
-                                                            class="img-fluid w-100"
+                                                            class="img-fluid w-100 u-object-fit-cover"
                                                             src="<?php echo $rest_post->featured_image_src; ?>"
                                                             alt="<?php echo $rest_post->title->rendered; ?>">
                                                         </div>
@@ -573,7 +573,7 @@ get_header(); ?>
 <!-- end form contact -->
 
 <img
-class="img-fluid d-none"
+class="img-fluid d-none u-object-fit-cover"
 data-src="<php echo get_template_directory_uri()>/../wp-bootstrap-starter-child/assets/images/image.png"
 alt="">
 

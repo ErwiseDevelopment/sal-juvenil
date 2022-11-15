@@ -43,7 +43,7 @@
                                     <div class="col-md-7">
                                         
                                         <img
-                                        class="img-fluid w-100 h-100"
+                                        class="img-fluid w-100 h-100 u-object-fit-cover"
                                         src="<?php echo $rest_post->featured_image_src; ?>"
                                         alt="<?php echo $rest_post->title->rendered; ?>">
                                     </div>
@@ -99,7 +99,7 @@
                                                 <div class="card-img">
                                                     
                                                     <img
-                                                    class="img-fluid"
+                                                    class="img-fluid u-object-fit-cover"
                                                     src="<?php echo $rest_post->featured_image_src; ?>"
                                                     alt="<?php echo $rest_post->title->rendered; ?>">
                                                 </div>
