@@ -6,7 +6,7 @@ Author URI: https://afterimagedesigns.com/
 Description:  WP Bootstrap Starter Child
 Version: 1.0.0
 Template: wp-bootstrap-starter
-License URI: LICENSE<!-- adadad -->
+License URI: LICENSE
 Text Domain: wp-bootstrap-starter-child
 */
 
@@ -14,6 +14,33 @@ Text Domain: wp-bootstrap-starter-child
 .u-cursor-pointer {
 	cursor: pointer !important;
 }
+
+/* navbar */
+@media screen and (max-width: 991px) {
+	.l-navbar .nav-item {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.l-navbar .dropdown-menu {
+		border-left: 0;
+		border-right: 0;
+		position: unset;
+	}
+	
+	.l-navbar .dropdown-item {
+		padding: 0;
+		font-size: .875rem;
+		text-align: center;
+		word-break: break-word;
+	}
+	
+	.l-navbar .dropdown-item::before {
+		display: none;
+	}
+}
+
+/* end navbar */
 
 @media screen and (min-width: 1600px) {
 	.l-blogs__highlight__title {
